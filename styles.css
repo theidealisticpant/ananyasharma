@@ -1,0 +1,330 @@
+/*
+Design by Metamorphosis Design
+http://www.metamorphozis.com
+Released for free under a Creative Commons Attribution 2.5 License
+*/
+
+a:link {
+	color: #B60202;
+}
+
+a:hover {
+	text-decoration: underline;
+	color: #FF0000;
+}
+
+a:visited {
+	color: #B60202;
+}
+
+*
+{
+border: 0;
+margin: 0;
+}
+
+body
+{
+	background: #FD6C6C;
+	font: 12px Tahoma, Arial, Helvetica, sans-serif;
+	color: #666666;
+}
+
+#main
+{
+margin: 0 auto;
+width: 1020px;
+background: #ffffff;
+}
+
+#header
+{
+background: url(header.jpg) no-repeat;
+width: 1000px;
+margin: 0 auto;
+height: 290px;
+}
+
+#logo
+{
+padding-left: 40px;
+text-align: left;
+padding-top: 30px;
+height: 50px;
+}
+
+#logo a {
+	text-decoration: none;
+	text-transform: lowercase;
+	font-style: italic;
+	font-size: 16px;
+	color: #FFFFFF;
+	font-weight: bold;
+}
+
+
+#logo H2 a
+{
+font-size: 10px;
+}
+
+#padding1 {
+padding-top: 170px;
+}
+
+#buttons
+{
+margin: 0 auto;
+height: 52px;
+width: 854px;
+background: url(buttons.gif) no-repeat;
+text-align: center;
+padding-left: 130px;
+}
+
+#buttons li {
+	display: inline;
+}
+
+#buttons a {
+	display: block;
+	float: left;
+	width: 120px;
+	height: 37px;
+	margin-left: 1px;
+	text-align: center;
+	text-decoration: none;
+	color: #ffffff;
+	font-weight: bold;
+	font-size: 18px;
+	padding-top: 15px;
+
+}
+
+#buttons a:hover {
+	width: 120px;
+    height: 37px;
+	background: #FFFFFF url(buttons_back.gif) repeat-x;
+}
+
+#content
+{
+width: 970px;
+padding: 15px;
+}
+
+#left
+{
+width: 500px;
+padding: 10px;
+}
+
+#left H1
+{
+color: #B60202;
+margin: 0;
+padding: 0;
+font-size: 24px;
+}
+#left H2
+{
+color: #B60202;
+margin: 0;
+padding: 0;
+font-size: 18px;
+padding-top: 10px;
+}
+
+#left a
+{
+ color: #B60202;
+}
+
+#left a:hover {
+	text-decoration: none;
+	color: #FF0000;
+}
+
+#left a:visited {
+	color: #B60202;
+}
+
+
+
+
+
+
+#right1
+{
+	float: right;
+	width: 192px;
+	padding-right: 1em;
+}
+
+#sidebar1 {
+	float: right;
+	width: 192px;
+}
+
+#sidebar1 ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+
+#sidebar1 li ul {
+	padding: 10px 10px 20px 10px;
+}
+
+#sidebar1 li li {
+	margin: 0;
+	padding-left: 10px;
+	background: url(small.gif) no-repeat 3px 3px;
+}
+
+#sidebar1 h2 {
+	padding: 13px;
+	padding-top: 10px;
+	font-size: 18px;
+	height: 28px;
+	background: url(title.jpg) no-repeat;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+
+#sidebar h3
+{
+font-size: 14px;
+font-weight: bold;
+font-family: Tahoma, Arial, Helvetica, sans-serif;
+}
+
+#sidebar1 #categories1 li {
+	background: url(small.gif) no-repeat left top;
+}
+#calendar2 {
+	padding: 0 10px 20px 10px;
+}
+
+#calendar1 table {
+	width: 100%;
+	text-align: center;
+}
+
+#calendar1 thead {
+	background: #F1F1F1;
+}
+
+#calendar1 tbody td {
+	border: 1px solid #F1F1F1;
+}
+
+#calendar1 #prev {
+	text-align: left;
+}
+
+#calendar1 #next {
+	text-align: right;
+}
+
+#calendar1 tfoot a {
+	text-decoration: none;
+	font-weight: bold;
+}
+
+#calendar1 #now {
+	background: #499FFF;
+	border: 1px solid #ff0000;
+	font-weight: bold;
+	color: #ffffff
+}
+
+
+
+#right
+{
+float: right;
+width: 192px;
+padding-right: 20px;
+}
+
+#sidebar 
+{
+width: 192px;
+}
+
+#sidebar ul 
+{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+#sidebar li 
+{
+	margin-bottom: 15px;
+}
+
+#sidebar li ul {
+	padding: 10px;
+	border-top: none;
+}
+
+#sidebar li li {
+	margin: 0;
+	padding: 3px 0;
+}
+
+
+#sidebar li h2 {
+	height: 36px;
+	margin: 0;
+	padding: 10px 0 0 20px;
+	background: url(title.jpg) no-repeat;
+	font-size: 18px;
+	color: #ffffff;
+}
+
+#sidebar a:link {
+	text-decoration: none;
+}
+
+#sidebar a:hover {
+	text-decoration: underline;
+}
+#sidebar a:visited {
+		text-decoration: none;
+}
+
+#sidebar li a {
+	padding-left: 10px;
+	background: url(img09.gif) no-repeat 0px 4px;
+}
+
+
+#footer
+{
+	background: url(footer.jpg) no-repeat;
+	height: 67px;
+	width: 970px;
+	margin: 0 auto;
+	font-size: 10px;
+	color: #ffffff;
+	padding-top: 40px;
+	padding-left: 30px;
+	text-align: left;
+}
+
+#footer a
+{
+color: #ffffff;
+font-size: 10px;
+text-decoration: none;
+}
+.padding
+{
+padding: 10px;
+color:#FF0000;
+font-weight: bold;
+}
